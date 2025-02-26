@@ -1,0 +1,70 @@
+.seminarHeader
+    background-color: white
+    position: fixed
+    top: 0
+    z-index: 100 
+    width: 100% 
+    margin: 0
+    padding: 10px 0
+
+
+.seminarList
+    margin-top: 70px
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    gap: 5vh
+
+
+.seminarItem 
+    padding: 15px 10px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    list-style: none
+    width: 25vw
+    min-width: 450px
+    color: #ffffff
+    transition: transform 0.5s ease
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7)
+    border-radius: 20px
+    &:hover
+        transition: transform 0.5s ease 
+        transform:  scale(1.05) 
+
+    .seminarDel
+        display: flex
+        justify-content: right
+        padding-right: 10px
+        img
+            cursor: pointer
+            
+
+    .seminarItemTitle
+        font-size: 18px
+        margin-top: 5px
+        letter-spacing: 0.7px
+        text-transform: uppercase
+    
+    .seminarItemTime
+        font-size: 14px
+    
+        span
+            color: #e94646
+
+    .seminarItemText
+        padding: 10px 15px
+
+    .seminarItemEdit
+        color: #ffffff
+        cursor: pointer
+        text-decoration: underline
+        &:hover
+            color:#e94646    
+        
+    
+    
+    
+    
+   
+    
